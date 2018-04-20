@@ -1,40 +1,27 @@
-.important {
-  color: red;
-}
-.unimportant {
-  color: blue;
-}
-.cat-climate {
-  background-color: yellow;
+body {
+  background-image: url("../images/background.jpg");
+  background-color: red;
 }
 img {
   float: left;
+  max-width: 350px;
+  max-height: 350px;
+  margin-left: 100px;
+  margin-right: 20px;
 }
-.sidebar {
-  width: 30%;
-  float: right;
-  background-color: yellow;
-}
+
 .column {
   width: 350px;
   float: left;
+  margin-left: 100px
+  }
+.divider {
+  border-top: 8px solid red;
+  margin: 100px;
+  }
+.link{
+  margin-top: 600px
 }
-.test-box {
-  border: 2px solid red;
-  padding: 6px;
-  margin: 20px;
-  background-color: yellow;
-}
-.cats p {
-  background-color: coral;
-}
-.dogs p {
-  background-color: steelblue;
-}
-.cats p a {
-  font-weight: bold;
-
-}
-.dogs p a {
-  font-style: italic;
+.link2{
+  margin-top: 50px
 }
